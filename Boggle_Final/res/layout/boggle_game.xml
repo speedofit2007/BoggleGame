@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:stretchColumns="1" >
+
+    <Button
+        android:id="@+id/boggle_quit_button"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/black"
+            android:background="@drawable/help"
+        android:text="@string/quit" />
+
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="60dp"
+        android:layout_toLeftOf="@+id/boggle_quit_button"
+        android:text="Reset"
+            android:background="@drawable/help"
+        android:textColor="@android:color/black" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/reset"
+        android:layout_weight="1" 
+            android:background="@drawable/name"
+            android:layout_marginBottom="45dp"
+         android:layout_alignParentBottom="true"
+         
+         
+      
+        >
+        
+         
+        
+            
+     <TextView
+        android:id="@+id/ListView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+   android:text="Words\n"
+         android:textSize="15dp"
+  android:layout_marginBottom="60dp"
+        
+        android:textColor="@android:color/black" 
+        />
+  </ScrollView>
+  
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/boggle_quit_button"
+        android:layout_weight="1" 
+            android:background="@drawable/name"
+            android:layout_marginBottom="45dp"
+            android:layout_marginLeft="120dp"
+         android:layout_alignParentBottom="true">
+        
+     <TextView
+        android:id="@+id/ListView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+   android:text="Player #2\n"
+         android:textSize="15dp"
+         
+  android:layout_marginBottom="60dp"
+        
+        android:textColor="@android:color/black" 
+        />
+  </ScrollView>
+    
+    <TextView
+        android:id="@+id/boggle_time"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Time"
+        android:background="@drawable/score"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+   
+
+    <view
+        android:id="@+id/boggle_view"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/boggle_time"
+        android:layout_centerHorizontal="true"
+        class="com.example.bogglegame.BoggleView" />
+
+    <TextView
+        android:id="@+id/boggle_score"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/score"
+        android:layout_marginBottom="80dp"
+         android:layout_alignParentRight="true"
+         android:layout_above="@+id/boggle_quit_button"
+   
+        android:layout_weight="1"
+        android:text="Score:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/boggle_score2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/scrollView2"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:background="@drawable/score"
+        android:text="Opponent&apos;s Score: 0"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

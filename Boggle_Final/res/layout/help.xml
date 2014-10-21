@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+  <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_weight="1" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:text="Boggle is a popular word game for any number of players. Boggle is played with a tray of 16 letter dice.\n\tPlayers have three minutes to find as many words as they can in the grid.\n\tLetter cubes in the chain may be adjacent horizontally, vertically, or diagonally. Words must contain at least three letters.\n
+\tNo letter cube may be used more than once within a single word.\n
+
+\tThe scoring is as follows:\n
+\t\tFewer than 3 Letters: no score\n
+\t\t3 Letters: 1 point\n
+\t\t4 Letters: 1 point\n
+\t\t5 Letters: 2 points\n
+\t\t6 Letters: 3 points\n
+\t\t7 Letters: 4 points\n
+\t\t8 or More Letters: 11 points\n\n
+\tMULTIPLAYER MODE: \n\n In this we have two modes to play, BASIC and CUTTHROAT MODE.\n 
+\tIn basic network play, players  use separate  copies  of  the same board.\n
+\tIn cutthroat mode, both players work on the same board at the same time.\n
+\tIf a word has already found by one player, then the other player is blocked from finding that word with same sequence of dice\n
+\n"
+        android:textColor="@android:color/black" 
+         android:textSize="16sp"/>
+</ScrollView>
+    <Button
+        android:id="@+id/OK"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+       
+        android:layout_weight="1"
+        android:text="OK" />
+
+</LinearLayout>

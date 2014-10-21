@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android! 3e",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+
+    <string name="team_members_label">Team Members</string>
+    <string name="create_error_label">Create Error</string>
+    <string name="cutthroat">   Two Player \n Cutthroat  Mode</string>
+    <string name="basic">  Two Player \n Basic   Mode</string>
+    <string name="two_player_button">Cutthroat mode</string>
+    <string name="single_player">Single Player</string>
+    <string name="app_name">Boggle Game</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="settings_label">Settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="game_title">Game</string>
+    <string name="Help">Help</string>
+    <string name="join_room">Join Room</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="Quit">Quit</string>
+    <string name="create_room">Create Room</string>
+    <string name="about_title">About Android Sudoku</string>
+    <string name="about_text">\</string>
+    <string name="members_title">Team Members</string>
+    <string name="title_bar">Boggle Game</string>
+    <string name="boggle_name">Boggle</string>
+    <string name="boggle_label">Boggle</string>
+    <string name="boggle_score">Score</string>
+    <string name="quit">Menu</string>
+    <string name="pause">Pause</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_solver">Solver</string>
+    <string name="reset">Reset</string>
+    <string name="title_multi_activity_main">Multiplayer Mode</string>
+    <string name="hello">Hello World, AndEngineTutorialActivity!</string>
+    <string name="playGame">Play Game</string>
+    <string name="chooseMonster">Choose Monster</string>
+    <string name="alertSelect">Please select monster to start game</string>
+    <string name="enterName">Enter Your Name</string>
+    <string name="joinRoom">Join Room</string>
+    <string name="type_name">Please Type Your Name</string>
+    <string name="play">Play Game</string>
+    <string name="wait">Waiting....</string>
+    <string name="title_activity_prepare_multiplayer">PrepareMultiplayerActivity</string>
+
+</resources>

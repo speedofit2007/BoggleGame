@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity" >
+
+
+
+    <Button
+        android:id="@+id/single_player_button"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/basic_two_player_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/help"
+        android:onClick="single_player"
+        android:text="@string/single_player"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:width="100dp" />
+
+     <Button
+         android:id="@+id/basic_two_player_button"
+         android:layout_width="135dp"
+         android:layout_height="50dp"
+         android:layout_alignLeft="@+id/single_player_button"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="115dp"
+         android:background="@drawable/help"
+         android:text="@string/basic"
+         android:textColor="@android:color/black"
+         android:textSize="15sp"
+         android:textStyle="bold"
+         android:width="100dp" />
+
+     <Button
+         android:id="@+id/cutthroat_two_player_button"
+         android:layout_width="135dp"
+         android:layout_height="50dp"
+         android:layout_alignLeft="@+id/basic_two_player_button"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="23dp"
+         android:background="@drawable/help"
+         android:text="@string/cutthroat"
+         android:textColor="@android:color/black"
+         android:textSize="15sp"
+         android:textStyle="bold"
+         android:width="100dp" />
+
+     <Button
+         android:id="@+id/Help"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:background="@drawable/help"
+         android:text="@string/Help"
+         android:textColor="@android:color/black"
+         android:textStyle="bold"
+         android:width="10dp" />
+
+</RelativeLayout>
